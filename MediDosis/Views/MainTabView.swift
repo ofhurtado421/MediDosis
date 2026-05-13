@@ -17,6 +17,9 @@ struct MainTabView: View {
 
             NavigationStack { HistoryView() }
                 .tabItem { Label("Historial", systemImage: "clock.fill") }
+            
+            NavigationStack { CreditsView() }
+                .tabItem { Label("Créditos", systemImage: "info.circle.fill") }
         }
     }
 }
