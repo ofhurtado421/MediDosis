@@ -12,7 +12,7 @@ struct MainTabView: View {
             NavigationStack { MedicationListView() }
                 .tabItem { Label("Fármacos", systemImage: "pills.fill") }
 
-            NavigationStack { Text("Próximamente") }
+            NavigationStack { PatientFormView()}
                 .tabItem { Label("Dosificar", systemImage: "cross.fill") }
 
             NavigationStack { Text("Próximamente") }
