@@ -15,7 +15,7 @@ struct MainTabView: View {
             NavigationStack { PatientFormView()}
                 .tabItem { Label("Dosificar", systemImage: "cross.fill") }
 
-            NavigationStack { Text("Próximamente") }
+            NavigationStack { HistoryView() }
                 .tabItem { Label("Historial", systemImage: "clock.fill") }
         }
     }
